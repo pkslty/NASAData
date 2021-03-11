@@ -14,7 +14,9 @@ class NasaData: Decodable {
     var title: String?
     var url: URL?
     
-    init() {
+   static var sharedInstance = NasaData()
+    
+    private init() {
         self.date = nil
         self.explanation = nil
         self.hdurl = nil
