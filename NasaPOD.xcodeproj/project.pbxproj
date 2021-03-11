@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361CEC1725FA3A4700937992 /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361CEC1625FA3A4700937992 /* SecondController.swift */; };
 		36D3DFDB25F8000E0001E593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D3DFDA25F8000E0001E593 /* AppDelegate.swift */; };
 		36D3DFDD25F8000E0001E593 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D3DFDC25F8000E0001E593 /* SceneDelegate.swift */; };
 		36D3DFDF25F8000E0001E593 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D3DFDE25F8000E0001E593 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		361CEC1625FA3A4700937992 /* SecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
 		36D3DFD725F8000E0001E593 /* NasaPOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaPOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D3DFDA25F8000E0001E593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36D3DFDC25F8000E0001E593 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				36D3DFDE25F8000E0001E593 /* ViewController.swift */,
 				36D3DFF825F9F92C0001E593 /* NASAData.swift */,
 				36D3DFE025F8000E0001E593 /* Main.storyboard */,
+				361CEC1625FA3A4700937992 /* SecondController.swift */,
 				36D3DFE325F800100001E593 /* Assets.xcassets */,
 				36D3DFE525F800100001E593 /* LaunchScreen.storyboard */,
 				36D3DFE825F800100001E593 /* Info.plist */,
@@ -144,6 +147,7 @@
 				36D3DFDB25F8000E0001E593 /* AppDelegate.swift in Sources */,
 				36D3DFF925F9F92C0001E593 /* NASAData.swift in Sources */,
 				36D3DFDD25F8000E0001E593 /* SceneDelegate.swift in Sources */,
+				361CEC1725FA3A4700937992 /* SecondController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
