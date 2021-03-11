@@ -37,19 +37,21 @@ class ViewController: UIViewController {
         let urls = URL(string: "https://api.nasa.gov/planetary/apod?api_key=***REMOVED***")!
         let jsndatd = try! Data(contentsOf: URL(string: "https://api.nasa.gov/planetary/apod?api_key=***REMOVED***")!)
 
-        let data: NasaData = try! JSONDecoder().decode(NasaData.self, from: jsndatd)
+        //let data: NasaData
+        
+        NasaData.sharedInstance = try! JSONDecoder().decode(NasaData.self, from: jsndatd)
         print(jsndatd)
-        print(data.date)
-        print(data.explanation)
-        print(data.hdurl)
-        print(data.title)
-        print(data.url)
+        print(NasaData.sharedInstance.date)
+        print(NasaData.sharedInstance.explanation)
+        print(NasaData.sharedInstance.hdurl)
+        print(NasaData.sharedInstance.title)
+        print(NasaData.sharedInstance.url)
 
         let urld = URL(string: "https://apod.nasa.gov/apod/image/2102/PIA24333_fig1_1035c.jpg")!
-        let imdata = try! Data(contentsOf: data.url!)
+        let imdata = try! Data(contentsOf: NasaData.sharedInstance.url!)
         let image1 = UIImage(data: imdata)
         drawimage.image = image1
-        textview.text = data.explanation!
+        textview.text = NasaData.sharedInstance.explanation!
         textview.textColor = UIColor.red
         
         let task = URLSession.shared.dataTask(with: urls) { ddata, response, error in
@@ -72,8 +74,8 @@ class ViewController: UIViewController {
                 }
             }*/
             //DispatchQueue.main.async {
-                let andata: NasaData = try! JSONDecoder().decode(NasaData.self, from: ddata!)
-                print(andata)
+            NasaData.sharedInstance = try! JSONDecoder().decode(NasaData.self, from: ddata!)
+                print(NasaData.sharedInstance)
             
             
         }
