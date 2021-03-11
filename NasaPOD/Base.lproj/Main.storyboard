@@ -29,13 +29,10 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="O9X-4Q-FvP" userLabel="Image1">
-                                        <rect key="frame" x="8" y="24" width="358" height="241"/>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="O9X-4Q-FvP" userLabel="Image1">
+                                        <rect key="frame" x="7" y="14" width="358" height="241"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <gestureRecognizers/>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="wgq-CP-vhA" appends="YES" id="uxz-Gt-uKf"/>
-                                        </connections>
                                     </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="contentLayoutGuide" id="tyW-Ts-wzW"/>
@@ -49,28 +46,33 @@
                     <connections>
                         <outlet property="drawimage" destination="O9X-4Q-FvP" id="BqC-Yd-ZSO"/>
                         <outlet property="textview" destination="dHs-Uc-QTB" id="bEG-gi-Afz"/>
+                        <segue destination="Uhj-wj-21v" kind="show" identifier="showSecondController" id="7hh-GA-m2c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="wgq-CP-vhA">
-                    <connections>
-                        <segue destination="Uhj-wj-21v" kind="show" id="7f2-nZ-Hmq"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="350.72463768115944" y="55.580357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Second Controller-->
         <scene sceneID="2Lz-8O-D74">
             <objects>
-                <viewController id="Uhj-wj-21v" sceneMemberID="viewController">
+                <viewController id="Uhj-wj-21v" customClass="SecondController" customModule="NasaPOD" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MTI-3b-9wg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2e9-LR-JqU">
+                                <rect key="frame" x="0.0" y="88" width="414" height="792"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Z0n-qu-4xX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="QpW-2z-fnS"/>
+                    <connections>
+                        <outlet property="bigImage" destination="2e9-LR-JqU" id="4zr-pw-Nwo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2M7-a1-LLI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -92,7 +94,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wA9-fO-hfd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-559.4202898550725" y="55.580357142857139"/>
+            <point key="canvasLocation" x="-438" y="56"/>
         </scene>
     </scenes>
     <resources>

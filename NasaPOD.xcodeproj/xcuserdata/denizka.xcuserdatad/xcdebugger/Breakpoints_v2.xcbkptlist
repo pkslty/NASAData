@@ -14,8 +14,8 @@
             filePath = "NasaPOD/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "NasaPOD/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "NasaPOD/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -81,8 +81,8 @@
             filePath = "NasaPOD/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -90,109 +90,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5EACD51B-91B3-46A1-A883-9B3443424ADF"
+            uuid = "D6886571-6ECB-4449-AA09-A5107AF1675A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NasaPOD/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "ViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "5EACD51B-91B3-46A1-A883-9B3443424ADF - 17ecd67ef2e880eb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NasaPOD.ViewController.textview.getter : Swift.Optional&lt;__C.UITextView&gt;"
-                  moduleName = "NasaPOD"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/denizka/Development/NasaPOD/NasaPOD/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "5EACD51B-91B3-46A1-A883-9B3443424ADF - 5208c986f90776e7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NasaPOD.ViewController.textview.setter : Swift.Optional&lt;__C.UITextView&gt;"
-                  moduleName = "NasaPOD"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/denizka/Development/NasaPOD/NasaPOD/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "155">
-               </Location>
-               <Location
-                  uuid = "5EACD51B-91B3-46A1-A883-9B3443424ADF - 5373b11a10e42214"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NasaPOD.ViewController.textview.modify : Swift.Optional&lt;__C.UITextView&gt;"
-                  moduleName = "NasaPOD"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/denizka/Development/NasaPOD/NasaPOD/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "59">
-               </Location>
-               <Location
-                  uuid = "5EACD51B-91B3-46A1-A883-9B3443424ADF - 20762118c9f247dd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NasaPOD.ViewController.textview.modify : Swift.Optional&lt;__C.UITextView&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "NasaPOD"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/denizka/Development/NasaPOD/NasaPOD/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "64">
-               </Location>
-               <Location
-                  uuid = "5EACD51B-91B3-46A1-A883-9B3443424ADF - dba75528b7bf2522"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NasaPOD.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; NasaPOD.ViewController"
-                  moduleName = "NasaPOD"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/denizka/Development/NasaPOD/NasaPOD/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "218">
-               </Location>
-               <Location
-                  uuid = "5EACD51B-91B3-46A1-A883-9B3443424ADF - 220bebd00e6ab814"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NasaPOD.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NasaPOD.ViewController&gt;"
-                  moduleName = "NasaPOD"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/denizka/Development/NasaPOD/NasaPOD/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "152">
-               </Location>
-            </Locations>
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "handleTapGesture()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13887EF5-FE86-465D-B0EF-F7271AA6B7A4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NasaPOD/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
