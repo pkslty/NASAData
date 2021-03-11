@@ -13,6 +13,7 @@
 		36D3DFE225F8000E0001E593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D3DFE025F8000E0001E593 /* Main.storyboard */; };
 		36D3DFE425F800100001E593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D3DFE325F800100001E593 /* Assets.xcassets */; };
 		36D3DFE725F800100001E593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D3DFE525F800100001E593 /* LaunchScreen.storyboard */; };
+		36D3DFF925F9F92C0001E593 /* NASAData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D3DFF825F9F92C0001E593 /* NASAData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		36D3DFE325F800100001E593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36D3DFE625F800100001E593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36D3DFE825F800100001E593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D3DFF825F9F92C0001E593 /* NASAData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				36D3DFDA25F8000E0001E593 /* AppDelegate.swift */,
 				36D3DFDC25F8000E0001E593 /* SceneDelegate.swift */,
 				36D3DFDE25F8000E0001E593 /* ViewController.swift */,
+				36D3DFF825F9F92C0001E593 /* NASAData.swift */,
 				36D3DFE025F8000E0001E593 /* Main.storyboard */,
 				36D3DFE325F800100001E593 /* Assets.xcassets */,
 				36D3DFE525F800100001E593 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				36D3DFDF25F8000E0001E593 /* ViewController.swift in Sources */,
 				36D3DFDB25F8000E0001E593 /* AppDelegate.swift in Sources */,
+				36D3DFF925F9F92C0001E593 /* NASAData.swift in Sources */,
 				36D3DFDD25F8000E0001E593 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
