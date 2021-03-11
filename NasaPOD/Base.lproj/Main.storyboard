@@ -11,7 +11,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NasaPOD" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -33,6 +32,10 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="O9X-4Q-FvP" userLabel="Image1">
                                         <rect key="frame" x="8" y="24" width="358" height="241"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="wgq-CP-vhA" appends="YES" id="uxz-Gt-uKf"/>
+                                        </connections>
                                     </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="contentLayoutGuide" id="tyW-Ts-wzW"/>
@@ -47,8 +50,30 @@
                         <outlet property="textview" destination="dHs-Uc-QTB" id="bEG-gi-Afz"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="wgq-CP-vhA">
+                    <connections>
+                        <segue destination="Uhj-wj-21v" kind="show" id="7f2-nZ-Hmq"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-26.086956521739133" y="48.883928571428569"/>
+            <point key="canvasLocation" x="-559" y="56"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2Lz-8O-D74">
+            <objects>
+                <viewController id="Uhj-wj-21v" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MTI-3b-9wg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Z0n-qu-4xX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QpW-2z-fnS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2M7-a1-LLI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="593" y="56"/>
         </scene>
     </scenes>
     <resources>
