@@ -41,8 +41,8 @@ class ViewController: UIViewController {
         print(data.url)
         let decoder = JSONDecoder()*/
         print(jsonData)
-        let urls = URL(string: "https://api.nasa.gov/planetary/apod?api_key=***REMOVED***")!
-        let jsndatd = try! Data(contentsOf: URL(string: "https://api.nasa.gov/planetary/apod?api_key=***REMOVED***")!)
+        let urls = URL(string: "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY")!
+        let jsndatd = try! Data(contentsOf: URL(string: "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY")!)
 
         //let data: NasaData
         
